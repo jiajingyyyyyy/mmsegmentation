@@ -19,6 +19,7 @@ from .levir import LEVIRCDDataset
 from .lip import LIPDataset
 from .loveda import LoveDADataset
 from .mapillary import MapillaryDataset_v1, MapillaryDataset_v2
+from .my_dataset import MyDataset
 from .night_driving import NightDrivingDataset
 from .nyu import NYUDataset
 from .pascal_context import PascalContextDataset, PascalContextDataset59

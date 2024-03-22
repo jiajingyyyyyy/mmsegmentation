@@ -11,6 +11,14 @@ def cityscapes_classes():
         'bicycle'
     ]
 
+def my_dataset():
+    """MyDataset class names for external use."""
+    return [
+        'background', 'Inclusions', 'Patches', 'Scratches'
+    ]
+
+def cityscapes_palette():
+    return [[128, 64, 128], [244, 35, 232], [70, 70, 70], [102, 102, 156]]
 
 def ade_classes():
     """ADE20K class names for external use."""
@@ -489,6 +497,7 @@ def hsidrive_palette():
 
 
 dataset_aliases = {
+    'my_dataset': ['my_dataset'],
     'cityscapes': ['cityscapes'],
     'ade': ['ade', 'ade20k'],
     'voc': ['voc', 'pascal_voc', 'voc12', 'voc12aug'],
